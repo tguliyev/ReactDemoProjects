@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import { Header } from './Header';
 import './index.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -17,20 +18,7 @@ function Page() {
     )
 }
 
-function Header() {
-    return (
-        <header>
-            <nav className='navigation'>
-                <img src="logo192.png" alt="logo" />
-                <ul className='nav-items'>
-                    <li>Pricing</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                </ul>
-            </nav>
-        </header>
-    )
-}
+
 
 function Content() {
     return (
