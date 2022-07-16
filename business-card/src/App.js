@@ -1,5 +1,5 @@
 import React from "react";
-import Photo from "./images/photo.png";
+import TuralImage from "./images/tural.jpg";
 import Header from "./components/Header";
 import Content from "./components/Content";
 import Footer from "./components/Footer";
@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 export default function App() {
     return (
         <div className="card">
-            <img src={Photo} />
+            <img src={TuralImage} />
             <Header />
             <Content />
             <Footer /> 
